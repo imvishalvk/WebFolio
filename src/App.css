@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+.My-Domains-container {
+  width: 75%;
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+  margin-left: 12%;
+
+}
+
+.My-Domains-container span {
+  margin: 0 5px;
+}
+
+.My-Domains-content {
+  display: inline-block;
+  animation: scrollLeft 10s linear infinite;
+}
+
+@keyframes scrollLeft {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+p span{
+  position: relative;
+    display: inline-block;
+    overflow: hidden;
+    height: 1.3em;
+    vertical-align: bottom;
+    background: transparent;
+    margin:0  10px;
+    text-align: center;
+}
+p span span{
+  display: block;
+  animation: anim 5s infinite ease-in-out;
+}
+@keyframes anim {
+    0% { transform: translateY(0%) }
+    25% { transform: translateY(-100%) }
+    50% { transform: translateY(-200%) }
+    75% { transform: translateY(-300%) }
+    100% { transform: translateY(-400%) }
+}
+
+hr{
+  height: 15px;
+  margin: 10px auto;
+}
