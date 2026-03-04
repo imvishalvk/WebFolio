@@ -28,7 +28,7 @@ function About() {
                         >
                             <FaLinkedin />
                         </a>
-                        <a href='https://linkedin.com/in/vishalvk29/' className="text-sm sm:text-base text-gray-300">
+                        <a href='https://linkedin.com/in/vishalvk29/' target="_blank" className="text-sm sm:text-base text-gray-300">
                             LinkedIn
                         </a>
                     </div>
@@ -43,14 +43,14 @@ function About() {
                         >
                             <FaGithub />
                         </a>
-                        <a href='https://github.com/imvishalvk/' className="text-sm sm:text-base text-gray-300">
+                        <a href='https://github.com/imvishalvk/' target="_blank" className="text-sm sm:text-base text-gray-300">
                             GitHub
                         </a>
                     </div>
 
                     <div className="flex flex-col items-center gap-2">
                         <a
-                            href='mailto:vkvishalkr29@gmail.com'
+                            href='mailto:vkvishalkr29@gmail.com' target="_blank"
                             className="text-3xl sm:text-4xl p-4 rounded-full bg-gray-800 text-gray-300
                                 transition duration-300 transform
                                 hover:scale-110 hover:text-red-400
@@ -58,7 +58,7 @@ function About() {
                         >
                             <FaEnvelope />
                         </a>
-                        <a href='mailto:vkvishalkr29@gmail.com' className="text-sm sm:text-base text-gray-300">
+                        <a href='mailto:vkvishalkr29@gmail.com' target="_blank" className="text-sm sm:text-base text-gray-300">
                             Gmail
                         </a>
                     </div>
@@ -73,7 +73,7 @@ function About() {
                         >
                             <FaInstagram />
                         </a>
-                        <a href='https://www.instagram.com/imvishalvk/' className="text-sm sm:text-base text-gray-300">
+                        <a href='https://www.instagram.com/imvishalvk/' target="_blank" className="text-sm sm:text-base text-gray-300">
                             Instagram
                         </a>
                     </div>
