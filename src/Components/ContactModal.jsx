@@ -51,9 +51,9 @@ function ContactModal({ isOpen, onClose, planName }) {
     const templateParams = {
       from_name: `${formData.firstName} ${formData.lastName}`.trim(),
       reply_to:  formData.email,
-      phone:     formData.phone    || "Not provided",
+      phone:     formData.phone,
       company:   formData.company  || "Not provided",
-      plan:      formData.selectedPlan || "No plan selected",
+      plan:      formData.selectedPlan,
       message:   formData.message,
     };
 
@@ -206,11 +206,11 @@ function ContactModal({ isOpen, onClose, planName }) {
 
               <div className="sm:col-span-2">
                 <label className="block text-sm font-semibold text-white mb-2">
-                  Phone number <span className="text-gray-500 font-normal">(optional)</span>
+                  Phone number
                 </label>
                 <input
                   type="tel" name="phone" value={formData.phone}
-                  onChange={handleChange} placeholder="+91 98765 43210"
+                  onChange={handleChange} required placeholder="+91 98765 43210"
                   className="block w-full rounded-md bg-white/5 px-3.5 py-2.5 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500"
                 />
               </div>
