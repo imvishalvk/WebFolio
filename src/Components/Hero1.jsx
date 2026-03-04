@@ -3,7 +3,7 @@ import { Parallax } from 'react-scroll-parallax'
 
 function Hero1() {
     return (
-        <Parallax speed={-5} className="bg-gray-900">
+        <Parallax speed={-5} className="bg-gray-900 ">
             <div className="mx-auto max-w-2xl py-15 pt-25">
                 <div className="hidden sm:mb-8 sm:flex sm:justify-center">
                     <div className="relative rounded-full px-3 py-1 text-sm/6 text-gray-400 ring-1 ring-white/10 hover:ring-white/20">

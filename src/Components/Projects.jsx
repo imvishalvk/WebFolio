@@ -7,7 +7,7 @@ import { Parallax } from 'react-scroll-parallax'
 
 function Projects() {
     return (
-        <section id='projects' speed={-5} className='bg-gray-900 py-15'>
+        <section id='projects' className='bg-gray-900 py-15'>
             <div className="text-center bg-gray-900 ">
                 <p className="text-3xl font-semibold tracking-tight text-balance text-white sm:text-5xl">Projects</p>
                 <br />

@@ -6,7 +6,7 @@ import { Parallax } from "react-scroll-parallax";
 
 function Soel() {
   return (
-    <Parallax speed={-5}  className="overflow-hidden bg-gray-900 py-15 items-center">
+    <Parallax speed={5}  className="overflow-hidden bg-gray-900 py-15 items-center">
       <div className="mx-auto max-w-7xl px-6 lg:px-8 ">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
 
