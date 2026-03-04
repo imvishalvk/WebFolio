@@ -4,8 +4,8 @@ import { FaLinkedin, FaGithub, FaInstagram, FaEnvelope } from "react-icons/fa";
 
 function About() {
     return (
-        <Parallax speed={-5} className="mx-auto max-w-7xl px-6 lg:px-8 py-20">
-            <section id='contact' className="mx-auto max-w-2xl lg:mx-0 w-full lg:w-1/2">
+        <Parallax speed={-5} className="mx-auto max-w-7xl px-6 lg:px-8 py-20" id='contact'>
+            <section  className="mx-auto max-w-2xl lg:mx-0 w-full lg:w-1/2">
                 <h2 className="text-4xl font-semibold tracking-tight text-white sm:text-5xl lg:text-7xl">
                     Get in Touch
                 </h2>

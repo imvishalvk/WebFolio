@@ -30,7 +30,7 @@ function Pasy() {
                     HTML
                   </dt>
                   <dd className="mt-1">
-                    Structured and semantic markup used to build the landing page.
+                    Created custom Components for user interface.
                   </dd>
                 </div>
 
@@ -40,7 +40,7 @@ function Pasy() {
                     CSS
                   </dt>
                   <dd className="mt-1">
-                    Responsive styling with modern layout techniques.
+                    added custom css in the shopify theme store for better customization.
                   </dd>
                 </div>
 
@@ -50,7 +50,7 @@ function Pasy() {
                     Shopify
                   </dt>
                   <dd className="mt-1">
-                    Added interactivity and dynamic behavior.
+                    Handled entire store using Shopify for product management and hanling online store.
                   </dd>
                 </div>
 
