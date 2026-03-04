@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 const PLANS = [
-  { name: "Landing Page",   price: "₹5,000",         note: "Fixed · 3–5 days" },
+  { name: "Landing Page",   price: "₹5,000",         note: "Fixed · 5-7 days" },
   { name: "React SPA",      price: "₹15,000",         note: "Based on scope · 1–3 weeks" },
   { name: "Full Stack App", price: "₹20,000–30,000",  note: "~1 month delivery" },
   { name: "E-Commerce",     price: "₹35,000+",        note: "Custom quote · 4–6 weeks" },

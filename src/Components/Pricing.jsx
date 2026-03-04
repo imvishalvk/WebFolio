@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import ContactModal from "./ContactModal";
+import React from "react";
 
 const plans = [
   {
@@ -7,7 +6,7 @@ const plans = [
     tag: "Starter",
     price: "₹5,000",
     priceNote: "Fixed price",
-    timeline: "3–5 days",
+    timeline: "5-7 days",
     description: "A clean, conversion-focused landing page to establish your online presence and attract customers.",
     features: [
       "Single page design",
@@ -80,18 +79,11 @@ const plans = [
   },
 ];
 
-export default function Pricing() {
-  const [modalOpen, setModalOpen] = useState(false);
-  const [selectedPlan, setSelectedPlan] = useState("");
-
-  const openModal = (planName) => {
-    setSelectedPlan(planName);
-    setModalOpen(true);
-  };
+export default function Pricing({ openModal }) {
 
   return (
     <>
-      <div className="relative isolate bg-gray-900 px-6 py-24 sm:py-32 lg:px-8">
+      <div className="relative isolate bg-gray-900 px-6 py-24 sm:py-32 lg:px-8" id="plans">
 
         {/* Background Gradient */}
         <div aria-hidden="true" className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80">
@@ -199,11 +191,6 @@ export default function Pricing() {
         </div>
       </div>
 
-      <ContactModal
-        isOpen={modalOpen}
-        onClose={() => setModalOpen(false)}
-        planName={selectedPlan}
-      />
     </>
   );
 }
