@@ -12,11 +12,10 @@ function Footer() {
           {/* About */}
           <div>
             <h2 className="text-2xl font-bold text-white mb-4">
-              Your Name
+              Vishal Kumar
             </h2>
             <p className="text-sm leading-relaxed">
-              Frontend Developer building modern, responsive and
-              user-focused web experiences.
+              MERN developer mostly recognised for clean and mobile responsive User Interfaces.
             </p>
           </div>
 
@@ -26,9 +25,10 @@ function Footer() {
               Quick Links
             </h3>
             <ul className="space-y-2">
-              <li><a href="#home" className="hover:text-white transition">Home</a></li>
+              <li><a href="#" className="hover:text-white transition">Home</a></li>
               <li><a href="#technologies" className="hover:text-white transition">Skills</a></li>
               <li><a href="#projects" className="hover:text-white transition">Projects</a></li>
+              <li><a href="#plans" className="hover:text-white transition">Plans</a></li>
               <li><a href="#contact" className="hover:text-white transition">Contact</a></li>
             </ul>
           </div>

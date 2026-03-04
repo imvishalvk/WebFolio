@@ -7,7 +7,7 @@ function Hero1() {
             <div className="mx-auto max-w-2xl py-15 pt-25">
                 <div className="hidden sm:mb-8 sm:flex sm:justify-center">
                     <div className="relative rounded-full px-3 py-1 text-sm/6 text-gray-400 ring-1 ring-white/10 hover:ring-white/20">
-                        Start everything online don't be a minimun. <a href="#" className="font-semibold text-indigo-400"><span aria-hidden="true" className="absolute inset-0"></span>Read more <span aria-hidden="true">&rarr;</span></a>
+                        Start everything online don't be a minimun. <a href="#technologies" className="font-semibold text-indigo-400"><span aria-hidden="true" className="absolute inset-0"></span>Read more <span aria-hidden="true">&rarr;</span></a>
                     </div>
                 </div>
                 <div className="text-center">

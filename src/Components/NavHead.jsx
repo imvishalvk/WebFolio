@@ -1,14 +1,15 @@
 import React from 'react'
+import myLogo from '../assets/My Logo/VK Logo white.png'
 
 function NavHead({ onContactClick }) {
   return (
     <div className="sticky top-0 z-50 bg-gray-900/80 backdrop-blur-md border-b border-gray-800">
       <header className="inset-x-0 top-0 z-50">
-        <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8">
+        <nav aria-label="Global" className="flex items-center justify-between px-6 lg:px-8">
           <div className="flex lg:flex-1">
-            <a href="#" className="-m-1.5 p-1.5">
+            <a href="#">
               <span className="sr-only">Your Company</span>
-              <img src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500" alt="" className="h-8 w-auto" />
+              <img src={myLogo} alt="" className="h-20 w-auto" />
             </a>
           </div>
 
@@ -71,7 +72,7 @@ function NavHead({ onContactClick }) {
                       <a href="#"             className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">Home</a>
                       <a href="#technologies" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">Skills</a>
                       <a href="#projects"     className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">Projects</a>
-                      <a href="#pricing"      className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">Plans</a>
+                      <a href="#plans"      className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">Plans</a>
                       <a href="#contact"      className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">Contact</a>
                     </div>
                     <div className="py-6">
