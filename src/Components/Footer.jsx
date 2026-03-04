@@ -41,22 +41,22 @@ function Footer() {
 
             <div className="flex justify-center md:justify-start gap-5 text-xl">
 
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+              <a href="linkedin.com/in/vishalvk29/" target="_blank" rel="noopener noreferrer"
                 className="hover:text-blue-400 hover:scale-110 transition transform">
                 <FaLinkedin />
               </a>
 
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer"
+              <a href="https://github.com/imvishalvk/" target="_blank" rel="noopener noreferrer"
                 className="hover:text-white hover:scale-110 transition transform">
                 <FaGithub />
               </a>
 
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"
+              <a href="https://www.instagram.com/imvishalvk/" target="_blank" rel="noopener noreferrer"
                 className="hover:text-pink-500 hover:scale-110 transition transform">
                 <FaInstagram />
               </a>
 
-              <a href="mailto:your@email.com"
+              <a href="mailto:vkvishalkr29@gmail.com"
                 className="hover:text-red-500 hover:scale-110 transition transform">
                 <FaEnvelope />
               </a>
@@ -68,7 +68,7 @@ function Footer() {
 
         {/* Bottom Section */}
         <div className="mt-10 pt-6 border-t border-gray-800 text-center text-sm text-gray-500">
-          © {new Date().getFullYear()} Your Name. All rights reserved.
+          © {new Date().getFullYear()} Vishal Kumar. All rights reserved.
         </div>
 
       </div>
