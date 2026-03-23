@@ -38,11 +38,11 @@ const plans = [
     highlight: true,
   },
   {
-    name: "Full Stack App",
+    name: "Web application with admin dashboard",
     tag: "Professional",
-    price: "₹20,000–30,000",
-    priceNote: "~1 month delivery",
-    timeline: "3–4 weeks",
+    price: "₹25,000–35,000",
+    priceNote: "~Approx 1 month delivery",
+    timeline: "4-6 weeks",
     description: "Complete full stack solution with React frontend, Node.js backend, and a full-featured admin panel.",
     features: [
       "React frontend (user-facing)",
@@ -58,11 +58,11 @@ const plans = [
     highlight: false,
   },
   {
-    name: "E-Commerce",
+    name: "Full Stack Application",
     tag: "Enterprise",
     price: "₹35,000+",
     priceNote: "Custom quote",
-    timeline: "4–6 weeks",
+    timeline: "6–8 weeks",
     description: "A fully featured e-commerce platform with storefront, cart, payments, and complete admin control.",
     features: [
       "Product catalog & detail pages",
